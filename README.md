@@ -1,17 +1,17 @@
 # To-do List Project
 
 ### Objective
-In this project, our main goal is to create a project that combines control flow, functions, and lists, to make sure can pass the first part of Python 101.
+In this project, our main goal is to create a project that combines control flow, functions, and lists.
 
 ### Problem
 create a program that allows the user to manage a simple to-do list. It includes functions like adding, removing, and displaying tasks.
 
 
 ### Implementation
+- Create an empty list called `todo_list`.
 - Write a function `add_task` to add a task to the list. The function takes the list and the new task as input.
 - Write a function `remove_task` to remove a task from the list. The function takes the list and the task as input، If the task is found and successfully removed, it should print "Task removed." If the task is not found in the list, it should print "Task not found."
 - Write a function `display` to print all the tasks in the list. Using the for loop.
-- Create an empty list called `todo_list`.
 - Implement a `while` loop that continues until the user chooses to quit the program.
 - Inside the loop, display a menu with the following options:
     - "1. Add task"
